@@ -17,7 +17,7 @@
     function appStorageInit(){
       var _appStorageObject = {};
       //library uses sessionStorage by default
-      //set _appStorageObject.storageMethod below to APPSTORAGETYPE.LOCALSTORAGE if you prefer to use localstore instead
+      //set _appStorageObject.storageMethod below to APPSTORAGETYPE.LOCALSTORAGE if you prefer to use localstorage instead
       // to understand difference between session storage and local storage refar : https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
       _appStorageObject.storageMethod = APPSTORAGETYPE.SESSIONSTORAGE;
       _appStorageObject.retrieve = function(key) {
